@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Source+Code+Pro:ital,wght@0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+  background-color: rgb(190, 190, 190);
+    width: 300px;
+    font-family: 'Mukta', sans-serif;
+    
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration:none;
+    color: black;
+}
+.main{
+ /*   background-color: yellow;*/
+width: 80vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+ /*   background-color: rgb(0, 238, 255);*/
+    height: 50vh;
+    width: 80vw;
+    margin: 250px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    
+
+}
+    .hello{
+font-size: 65px;
+    }
+    .name{
+font-size: 50px;
+font-weight: bold;
+font-family: 'Mukta', sans-serif;
+    }
+    .about{
+font-size: 35px;
+    }
+    .moreabout{
+        font-size: 25px;
+font-family: 'Mukta', sans-serif;
+margin-top: 25px;
+    }
+    .buttons{
+        margin-top: 35px;
+    }
+.buttons button{
+    padding: 9px 14px;
+border-radius: 15px;
+color: white;
+background-color: black;
+font-weight: bold;
+font-size: 18px;
+margin: 0px 5px;
+cursor: pointer;
+
+}
+.buttons button:hover{
+    color: black;
+background-color: white;
+
+
+}
+.insta img{
+    padding: 15px;
+    height: 40px;
+    width: auto;
+}
+.devpic img{
+    height: 50vh;
+    justify-content: space-around;
+}
